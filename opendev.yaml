@@ -1,0 +1,16 @@
+# Example configuration for OpenDevEnv
+
+name: sample-project
+
+runtime:
+  - node >=18
+  - python >=3.10
+
+tools:
+  - git
+  - docker (optional)
+
+scripts:
+  setup: npm install
+  start: npm run dev
+  
